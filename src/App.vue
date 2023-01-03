@@ -2,7 +2,7 @@
   <nav>
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> |
-    <router-link to="/welcome">Welcome</router-link> |
+    <router-link to="/welcome">Welcome</router-link> |<br>
     <router-link to="/databinding/String">String</router-link> |
     <router-link to="/databinding/html">Html</router-link> |
     <router-link to="/databinding/input">Input</router-link> |
@@ -10,6 +10,13 @@
     <router-link to="/databinding/checkbox">checkbox</router-link> |
     <router-link to="/databinding/radio">radio</router-link> |
     <router-link to="/databinding/attr">attribute</router-link> |
+    <router-link to="/databinding/list">list</router-link> |
+    <router-link to="/databinding/class">class</router-link> |
+    <router-link to="/databinding/style">style</router-link> |<br>
+    <router-link to="/event/click">Click</router-link> |
+    <router-link to="/event/change">Change</router-link> |
+    <router-link to="/event/key">Key</router-link> |<br>
+    <router-link to="/memolist">Memo</router-link> |
   </nav>
   <router-view/>
 </template>
